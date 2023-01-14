@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/CollectionsPract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Demo1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/DemoLom/jpapractice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/EmailExample" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/FirstMav" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/HTML-CSS-JavaScript-projects-for-beginners" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/JDBC_CRUD" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/MapStructPract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/SmsPrac" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/StudentDemo" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/grpc-spring-boot-example" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpapractice" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpapractice-master" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/jpapractice-master-with-Rest" vcs="Git" />
+  </component>
+</project>

@@ -1,0 +1,1495 @@
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:62985<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer 3TM3sZltrbfHvhtjlvNgSbQfo7cTfpej
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer 3TM3sZltrbfHvhtjlvNgSbQfo7cTfpej[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 11:46:49 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 11:46:49 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63027<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 11:50:49 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 11:50:49 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63084<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 11:53:06 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 11:53:06 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63153<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 11:58:19 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 11:58:19 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63195<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 11:59:27 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 11:59:27 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63209<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> User-agent: sendgrid/3.0.0;java
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "User-agent: sendgrid/3.0.0;java[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:00:33 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:00:33 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total kept alive: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63292<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:04:19 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:04:19 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63360<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:06:50 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:06:50 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63402<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:07:28 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:07:28 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63473<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:08:57 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:08:57 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63479<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:09:40 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:09:40 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63488<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:10:43 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:10:43 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63492<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:10:52 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:10:52 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63496<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:11:06 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:11:06 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63550<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:14:24 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:14:24 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63561<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:15:15 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:15:15 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63566<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SENDGRID_API_KEY
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SENDGRID_API_KEY[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"rakesh.chavan776@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:15:48 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:15:48 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63571<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer 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
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer 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[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"rakesh.chavan776@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 202 Accepted[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:16:52 GMT[\r][\n]"
+http-outgoing-0 << "Content-Length: 0[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "X-Message-Id: CmycbPHQQTmkyYLhTA_MVg[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << HTTP/1.1 202 Accepted
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:16:52 GMT
+http-outgoing-0 << Content-Length: 0
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << X-Message-Id: CmycbPHQQTmkyYLhTA_MVg
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63593<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer SK38f8435a0b1ebbe05fb7a407633e4245[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 401 Unauthorized[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:19:49 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 116[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The provided authorization grant is invalid, expired, or revoked","field":null,"help":null}]}"
+http-outgoing-0 << HTTP/1.1 401 Unauthorized
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:19:49 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 116
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Authentication required
+api.sendgrid.com:443 requested authentication
+Response contains no authentication challenges
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/54.248.129.79:443
+Connecting socket to api.sendgrid.com/54.248.129.79:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63606<->54.248.129.79:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer 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
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer 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[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"suchitkhadtarb13@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 403 Forbidden[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:21:02 GMT[\r][\n]"
+http-outgoing-0 << "Content-Type: application/json[\r][\n]"
+http-outgoing-0 << "Content-Length: 281[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << "{"errors":[{"message":"The from address does not match a verified Sender Identity. Mail cannot be sent until this error is resolved. Visit https://sendgrid.com/docs/for-developers/sending-email/sender-identity/ to see the Sender Identity requirements","field":"from","help":null}]}"
+http-outgoing-0 << HTTP/1.1 403 Forbidden
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:21:02 GMT
+http-outgoing-0 << Content-Type: application/json
+http-outgoing-0 << Content-Length: 281
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]
+CookieSpec selected: default
+Auth cache not set in the context
+Connection request: [route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 0 of 2; total allocated: 0 of 20]
+Connection leased: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 20]
+Opening connection {s}->https://api.sendgrid.com:443
+Connecting to api.sendgrid.com/52.74.245.57:443
+Connecting socket to api.sendgrid.com/52.74.245.57:443 with timeout 0
+Enabled protocols: [TLSv1.3, TLSv1.2]
+Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_RSA_WITH_AES_128_GCM_SHA256, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDH_RSA_WITH_AES_256_CBC_SHA, TLS_ECDH_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDH_RSA_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+Starting handshake
+Secure session established
+ negotiated protocol: TLSv1.2
+ negotiated cipher suite: TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
+ peer principal: CN=*.api.sendgrid.com
+ peer alternative names: [*.api.sendgrid.com, api.sendgrid.com]
+ issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+Connection established 192.168.6.48:63610<->52.74.245.57:443
+Executing request POST /v3/mail/send HTTP/1.1
+Proxy auth state: UNCHALLENGED
+http-outgoing-0 >> POST /v3/mail/send HTTP/1.1
+http-outgoing-0 >> Authorization: Bearer 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
+http-outgoing-0 >> User-Agent: sendgrid/4.9.3;java
+http-outgoing-0 >> Accept: application/json
+http-outgoing-0 >> Content-Type: application/json
+http-outgoing-0 >> Content-Length: 266
+http-outgoing-0 >> Host: api.sendgrid.com
+http-outgoing-0 >> Connection: Keep-Alive
+http-outgoing-0 >> Accept-Encoding: gzip,deflate
+http-outgoing-0 >> "POST /v3/mail/send HTTP/1.1[\r][\n]"
+http-outgoing-0 >> "Authorization: Bearer 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[\r][\n]"
+http-outgoing-0 >> "User-Agent: sendgrid/4.9.3;java[\r][\n]"
+http-outgoing-0 >> "Accept: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+http-outgoing-0 >> "Content-Length: 266[\r][\n]"
+http-outgoing-0 >> "Host: api.sendgrid.com[\r][\n]"
+http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+http-outgoing-0 >> "[\r][\n]"
+http-outgoing-0 >> "{"from":{"email":"rakesh.chavan776@gmail.com"},"subject":"Sending with Twilio SendGrid is Fun","personalizations":[{"to":[{"email":"suchitkhadtar12@gmail.com"}]}],"content":[{"type":"text/html","value":"and <em>easy</em> to do anywhere with <strong>Java</strong>"}]}"
+http-outgoing-0 << "HTTP/1.1 202 Accepted[\r][\n]"
+http-outgoing-0 << "Server: nginx[\r][\n]"
+http-outgoing-0 << "Date: Thu, 25 Aug 2022 12:21:23 GMT[\r][\n]"
+http-outgoing-0 << "Content-Length: 0[\r][\n]"
+http-outgoing-0 << "Connection: keep-alive[\r][\n]"
+http-outgoing-0 << "X-Message-Id: fBEHYGX1S4mgCsB0PDeZWg[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Origin: https://sendgrid.api-docs.io[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Methods: POST[\r][\n]"
+http-outgoing-0 << "Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl[\r][\n]"
+http-outgoing-0 << "Access-Control-Max-Age: 600[\r][\n]"
+http-outgoing-0 << "X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html[\r][\n]"
+http-outgoing-0 << "Strict-Transport-Security: max-age=600; includeSubDomains[\r][\n]"
+http-outgoing-0 << "[\r][\n]"
+http-outgoing-0 << HTTP/1.1 202 Accepted
+http-outgoing-0 << Server: nginx
+http-outgoing-0 << Date: Thu, 25 Aug 2022 12:21:23 GMT
+http-outgoing-0 << Content-Length: 0
+http-outgoing-0 << Connection: keep-alive
+http-outgoing-0 << X-Message-Id: fBEHYGX1S4mgCsB0PDeZWg
+http-outgoing-0 << Access-Control-Allow-Origin: https://sendgrid.api-docs.io
+http-outgoing-0 << Access-Control-Allow-Methods: POST
+http-outgoing-0 << Access-Control-Allow-Headers: Authorization, Content-Type, On-behalf-of, x-sg-elas-acl
+http-outgoing-0 << Access-Control-Max-Age: 600
+http-outgoing-0 << X-No-CORS-Reason: https://sendgrid.com/docs/Classroom/Basics/API/cors.html
+http-outgoing-0 << Strict-Transport-Security: max-age=600; includeSubDomains
+Connection can be kept alive indefinitely
+Connection [id: 0][route: {s}->https://api.sendgrid.com:443] can be kept alive indefinitely
+http-outgoing-0: set socket timeout to 0
+Connection released: [id: 0][route: {s}->https://api.sendgrid.com:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 20]

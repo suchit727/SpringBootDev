@@ -1,0 +1,26 @@
+
+q
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ƒ·®¸üÿÿÿÿ8ğ¶öÃ0
+j
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(‰ãÙÇøÿÿÿÿ8ñ¶öÃ0
+>
+java:S1170"!Make this final field static too.(òâÎÃ8ò¶öÃ0
+C
+java:S1170	"!Make this final field static too.(ºÄÌÚûÿÿÿÿ8ó¶öÃ0
+>
+java:S1170
+"!Make this final field static too.(Œ…Âº8ó¶öÃ0
+R
+java:S1854"5Remove this useless assignment to local variable "i".(´«™Œ8ø¶öÃ0
+O
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ8ş¶öÃ0
+C
+java:S1481"&Remove this unused "i" local variable.(´«™Œ8‚·öÃ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ä˜òl8ƒ·öÃ0
+D
+java:S1068"'Remove this unused "url" private field.(òâÎÃ8…·öÃ0
+J
+java:S1068	"(Remove this unused "user" private field.(ºÄÌÚûÿÿÿÿ8…·öÃ0
+I
+java:S1068
+",Remove this unused "password" private field.(Œ…Âº8…·öÃ0

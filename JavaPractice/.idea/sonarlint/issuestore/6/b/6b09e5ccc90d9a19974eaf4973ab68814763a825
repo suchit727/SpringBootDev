@@ -1,0 +1,16 @@
+
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(šÎ€®8¤ÔÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(šÎ€®8‘¤ÔÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ìåäıÿÿÿÿ8”¤ÔÅÒ0
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(²¦íõ8–¤ÔÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(²¦íõ8—¤ÔÅÒ0
+b
+java:S1612"@Replace this lambda with method reference 'Employee::getSalary'.(ıëùœÿÿÿÿÿ8™¤ÔÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(øÂ÷«ûÿÿÿÿ8œ¤ÔÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¾ƒŒËùÿÿÿÿ8œ¤ÔÅÒ0
+b
+java:S1612"@Replace this lambda with method reference 'Employee::getSalary'.(ıëùœÿÿÿÿÿ8¤ÔÅÒ0
+U	java:S106$"9Replace this use of System.out or System.err by a logger.(ûÜÎ¼8Ÿ¤ÔÅÒ0
+Z	java:S106&"9Replace this use of System.out or System.err by a logger.(õ” ³ûÿÿÿÿ8 ¤ÔÅÒ0

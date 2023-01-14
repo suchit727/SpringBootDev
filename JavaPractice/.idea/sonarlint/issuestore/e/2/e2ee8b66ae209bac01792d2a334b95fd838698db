@@ -1,0 +1,13 @@
+
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(ÓİÚá8±ÛÓÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(ÓİÚá8²ÛÓÅÒ0
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(¨¥‡å8´ÛÓÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(¨¥‡å8´ÛÓÅÒ0
+]	java:S125"<This block of commented-out lines of code should be removed.(‰õşÿÿÿÿ8¸ÛÓÅÒ0
+b
+java:S1612$"@Replace this lambda with method reference 'System.out::println'.(Åìäµıÿÿÿÿ8¹ÛÓÅÒ0
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(Åìäµıÿÿÿÿ8ºÛÓÅÒ0
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8»ÛÓÅÒ0

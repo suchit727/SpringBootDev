@@ -1,0 +1,14 @@
+
+Y
+java:S3655!"7Call "Optional#isPresent()" before accessing the value.(“‡ˆ¥ıÿÿÿÿ8ÙÓÅÒ0
+Z
+java:S3655"8Call "reduceSum.isPresent()" before accessing the value.(Ğ€½ùÿÿÿÿ8 ÙÓÅÒ0
+S
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(Ä÷«+8¡ÙÓÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‚¨Ö§8­ÙÓÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(öãÚØÿÿÿÿÿ8°ÙÓÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(Ğ€½ùÿÿÿÿ8²ÙÓÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(çã—§ÿÿÿÿÿ8´ÙÓÅÒ0
+T	java:S106"9Replace this use of System.out or System.err by a logger.(Œß8·ÙÓÅÒ0
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ŞÄîÑûÿÿÿÿ8»ÙÓÅÒ0
+Z	java:S106""9Replace this use of System.out or System.err by a logger.(¤É—ûÿÿÿÿ8¾ÙÓÅÒ0

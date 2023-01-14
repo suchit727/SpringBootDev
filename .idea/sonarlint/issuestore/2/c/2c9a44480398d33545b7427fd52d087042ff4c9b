@@ -1,0 +1,12 @@
+
+e
+java:S2095"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(œæñŠ
+]
+java:S2095"HUse try-with-resources or close this "Connection" in a "finally" clause.(°àÐw
+P
+java:S1854"5Remove this useless assignment to local variable "i".(±“ƒòÿÿÿÿÿ
+H
+java:S4925"-Remove this "Class.forName()", it is useless.(õ†¨Äùÿÿÿÿ
+A
+java:S1481"&Remove this unused "i" local variable.(±“ƒòÿÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¼®´·

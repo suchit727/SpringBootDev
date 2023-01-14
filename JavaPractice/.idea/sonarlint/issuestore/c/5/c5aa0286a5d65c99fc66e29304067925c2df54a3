@@ -1,0 +1,9 @@
+
+]	java:S125"<This block of commented-out lines of code should be removed.(Ñ˜×íÿÿÿÿÿ8­ÜÓÅÒ0
+]
+java:S1612"@Replace this lambda with method reference 'System.out::println'.(‹ãè8°ÜÓÅÒ0
+U	java:S106"9Replace this use of System.out or System.err by a logger.(‹ãè8±ÜÓÅÒ0
+S
+java:S1128"7Remove this unused import 'lombok.extern.log4j.Log4j2'.(ÅP8²ÜÓÅÒ0
+M
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8²ÜÓÅÒ0
